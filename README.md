@@ -5,3 +5,5 @@ This project focuses on developing a machine learning-based sensor fault detecti
 python=3.8
 
 ### Project
+
+<img src = "image\screenshot-1736119500615.png">

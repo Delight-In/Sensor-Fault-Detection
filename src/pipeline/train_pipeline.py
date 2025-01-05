@@ -6,7 +6,6 @@ from src.components.data_transformation import DataTransformation
 from src.components.model_trainer import ModelTrainer
 from src.exception import CustomException
 
-
 class TrainingPipeline:
 
     def start_data_ingestion(self):
@@ -16,7 +15,6 @@ class TrainingPipeline:
             return feature_store_file_path
         except Exception as e:
             raise CustomException(e,sys)
-        
     
     def start_data_transformation(self,feature_store_file_path):
         try:
