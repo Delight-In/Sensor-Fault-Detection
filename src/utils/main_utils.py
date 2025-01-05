@@ -6,18 +6,13 @@ import pickle
 import yaml
 import boto3
 
-
 from src.constant import *
 from src.exception import CustomException
 from src.logger import logging
 
-
-
-
 class MainUtils:
     def __init__(self) -> None:
         pass
-
 
     def read_yaml_file(self, filename: str) -> dict:
         try:
@@ -38,10 +33,7 @@ class MainUtils:
 
 
         except Exception as e:
-            raise CustomException(e, sys) from e
-
-
-   
+            raise CustomException(e, sys) from e  
 
 
     @staticmethod
