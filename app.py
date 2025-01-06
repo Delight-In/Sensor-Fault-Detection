@@ -23,7 +23,7 @@ def train_route():
     except Exception as e:
         raise CustomException(e,sys)
 
-@app.route('/predict', methods=['POST', 'GET'])
+@app.route('train/predict', methods=['POST', 'GET'])
 def upload():
    
     try:
