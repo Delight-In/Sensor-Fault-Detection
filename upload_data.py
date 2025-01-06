@@ -8,7 +8,7 @@ from src.constant import *
 client = MongoClient(MONGO_DB_URL)
 
 #create database name and collection name
-DATABASE_NAME="pwskills"
+DATABASE_NAME="Sensor"
 COLLECTION_NAME='waferfault'
 
 df=pd.read_csv(r"G:\PROJECT2_SENSOR_FAULT_DETECTOR\notebooks\wafer_23012020_041211.csv")
