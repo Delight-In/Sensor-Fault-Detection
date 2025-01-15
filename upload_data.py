@@ -11,7 +11,7 @@ client = MongoClient(MONGO_DB_URL)
 DATABASE_NAME="Sensor"
 COLLECTION_NAME='waferfault'
 
-df=pd.read_csv(r"G:\PROJECT2_SENSOR_FAULT_DETECTOR\notebooks\wafer_23012020_041211.csv")
+df=pd.read_csv(r"G:\PROJECT2_SENSOR_FAULT_DETECTOR\dataset\wafer_23012020_041211.csv")
 
 df=df.drop("Unnamed: 0",axis=1)
 
